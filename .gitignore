@@ -1,0 +1,34 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Dependencies and build output
+node_modules/
+dist/
+.vite/
+
+# Python artifacts and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Runtime data, logs, and local databases
+*.log
+*.db
+*.sqlite3
+
+# Editor and OS files
+.DS_Store
+.idea/
+.vscode/
+
+# Local agent/session metadata
+.claude/
+.agents/
+
+# Backup archives and generated artifacts
+backups/
+*.dump
+*.tar.gz

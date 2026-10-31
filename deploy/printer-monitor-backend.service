@@ -1,0 +1,18 @@
+[Unit]
+Description=Printer Monitor API (FastAPI)
+After=network-online.target postgresql.service
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=root
+Group=root
+WorkingDirectory=/root/savepage/backend
+EnvironmentFile=/root/savepage/backend/.env
+ExecStart=/usr/local/bin/uvicorn app.main:app --host 0.0.0.0 --port 8002
+Restart=always
+RestartSec=5
+TimeoutStopSec=30
+
+[Install]
+WantedBy=multi-user.target

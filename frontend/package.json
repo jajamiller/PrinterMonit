@@ -1,0 +1,32 @@
+{
+  "name": "printer-monitor-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint src --fix"
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-hook-form": "^7.53.1",
+    "react-router-dom": "^7.18.5",
+    "recharts": "^3.10.1"
+  },
+  "devDependencies": {
+    "@hookform/resolvers": "^3.5.0",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^5.0.0",
+    "autoprefixer": "^10.4.19",
+    "eslint": "^9.15.0",
+    "eslint-plugin-react": "^7.34.0",
+    "postcss": "^8.4.42",
+    "typescript": "^5.6.2",
+    "vite": "^8.3.5"
+  }
+}

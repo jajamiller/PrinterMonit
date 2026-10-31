@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 80" role="img" aria-labelledby="title desc">
+  <title id="title">PrinterMonit</title>
+  <desc id="desc">Logotipo institucional com escudo, impressora e indicador verde de disponibilidade.</desc>
+  <g transform="translate(4 8) scale(1.05)">
+    <path d="M32 3 56 12v17c0 15-9.8 25.8-24 32C17.8 54.8 8 44 8 29V12L32 3Z" fill="#1E40AF"/>
+    <path d="M32 9 50 16v13c0 11.5-7 20.2-18 25.4C21 49.2 14 40.5 14 29V16L32 9Z" fill="#F1F5F9"/>
+    <path d="M22 24h20a5 5 0 0 1 5 5v9a4 4 0 0 1-4 4h-2v-6H23v6h-2a4 4 0 0 1-4-4v-9a5 5 0 0 1 5-5Z" fill="#0F172A"/>
+    <path d="M24 18h16v9H24zM23 35h18v12H23z" fill="#fff" stroke="#0F172A" stroke-width="2" stroke-linejoin="round"/>
+    <path d="M27 39h10M27 43h8" stroke="#94A3B8" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="42" cy="40" r="9" fill="#16A34A" stroke="#F1F5F9" stroke-width="2.5"/>
+    <path d="m38.5 40 2.3 2.3 4.5-5" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <text x="82" y="52" fill="#0F172A" font-family="Montserrat, Inter, ui-sans-serif, system-ui, sans-serif" font-size="34" font-weight="700" letter-spacing="-1">Printer<tspan fill="#1E40AF">Monit</tspan></text>
+</svg>
