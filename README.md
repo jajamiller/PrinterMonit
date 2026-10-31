@@ -24,7 +24,7 @@ O método mais simples para rodar o sistema completo (backend + banco de dados) 
 #### 2.1. Clonar o repositório
 
 ```bash
-git clone <url-do-repositorio>
+git clone https://github.com/jajamiller/PrinterMonit
 cd printermonit
 ```
 
