@@ -1,7 +1,5 @@
 # PrinterMonit — Sistema Web de Monitoramento de Impressoras
 
-![PrinterMonit Banner](cap.png)
-
 Sistema web profissional para gerenciamento, monitoramento e controle de impressoras em rede, construído com:
 
 - **Backend**: FastAPI (Python), PostgreSQL, SQLAlchemy (async), Pydantic, pysnmp, JWT + passlib
